@@ -1,0 +1,12 @@
+{
+  "name": "sabor-goiano",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Landing page Sabor Goiano — site estático na Vercel",
+  "scripts": {
+    "deploy": "vercel --prod --yes",
+    "deploy:preview": "vercel --yes",
+    "vercel:who": "vercel whoami"
+  },
+  "devDependencies": {}
+}
